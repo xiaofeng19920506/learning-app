@@ -30,7 +30,7 @@ export default function Chat() {
     <div className="relative w-full flex flex-col py-10 mx-auto overflow-y-auto" ref={chatContainer}>
 
       {messages.map(message => (
-        <div key={m.id} className="whitespace-pre-wrap" >
+        <div key={message.id} className="whitespace-pre-wrap" >
           {message.role === 'user' ? 'User: ' : 'AI: '}
           {message.content}
         </div>
