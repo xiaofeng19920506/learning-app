@@ -29,10 +29,10 @@ export default function Chat() {
   return (
     <div className="relative w-full flex flex-col py-10 mx-auto overflow-y-auto" ref={chatContainer}>
 
-      {messages.map(m => (
+      {messages.map(message => (
         <div key={m.id} className="whitespace-pre-wrap" >
-          {m.role === 'user' ? 'User: ' : 'AI: '}
-          {m.content}
+          {message.role === 'user' ? 'User: ' : 'AI: '}
+          {message.content}
         </div>
       ))}
       <form onSubmit={handleSubmit} className="fixed bottom-0 w-full max-w-[60%]">
