@@ -8,9 +8,12 @@
   "dependencies": {
     "@supabase/ssr": "latest",
     "@supabase/supabase-js": "latest",
+    "ai": "^3.0.13",
     "autoprefixer": "10.4.17",
+    "dotenv": "^16.4.5",
     "geist": "^1.2.1",
     "next": "latest",
+    "openai": "^4.29.2",
     "postcss": "8.4.33",
     "react": "18.2.0",
     "react-dom": "18.2.0",
