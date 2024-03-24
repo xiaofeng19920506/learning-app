@@ -24,7 +24,8 @@ export default async function Index() {
     <div className="absolute flex flex-col h-screen w-[60%] overflow-y-hidden">
       <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16">
         <div className="relative w-full max-w-4xl flex justify-between items-center p-3 text-sm">
-          <DeployButton />
+          {/* <DeployButton /> */}
+          <div></div>
           {isSupabaseConnected && <AuthButton />}
         </div>
       </nav>
